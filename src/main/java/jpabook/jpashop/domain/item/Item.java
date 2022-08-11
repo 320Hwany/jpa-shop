@@ -25,11 +25,4 @@ public abstract class Item {
 
     @ManyToMany(mappedBy = "items")
     private List<Category> categories = new ArrayList<>();
-
-    @ManyToOne
-    @JoinColumn(name = "parent_id")
-    private Category parent;
-
-    @OneToMany(mappedBy = "parent")
-    private List<Category> child = new ArrayList<>();
 }
