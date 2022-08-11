@@ -8,7 +8,7 @@
  
 
 
-##setting
+## setting
 
 스프링 부트 + jpa로 기능을 구현할 것이다.
 
